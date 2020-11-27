@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class MoveForward : MonoBehaviour
 {
+    SpawnManager gameManager;
     public float speed = 40f;
-
+    public int point;
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameManager = FindObjectOfType<SpawnManager>();
     }
 
     // Update is called once per frame
@@ -27,6 +28,17 @@ public class MoveForward : MonoBehaviour
     public void OnCollisionEnter(Collision collision)
     {
         Destroy(gameObject);
+        gameManager.UpdateScore(point);
+    }
+    public void OnTriggerEnter(Collider other)
+    {
+        Destroy(gameObject);
+        if (!gameObject.CompareTag("Bad"))
+        {
+            gameManager.GameIsOver();
+        }
+
 
     }
+
 }

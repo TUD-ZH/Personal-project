@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6296167659480712724}
   m_Layer: 0
   m_Name: Christmas_Tree1
-  m_TagString: Untagged
+  m_TagString: bad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,3 +121,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
+  point: -10

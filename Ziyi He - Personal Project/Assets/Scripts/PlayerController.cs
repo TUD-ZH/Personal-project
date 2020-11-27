@@ -25,8 +25,8 @@ public class PlayerController : MonoBehaviour
 
     //make sure player cannot go off the screen
         if (transform.position.x > xRange)
-            transform.position = new Vector3(xRange, 0, -95);
+            transform.position = new Vector3(xRange, 0, -97);
         if (transform.position.x < -xRange)
-            transform.position = new Vector3(-xRange, 0, -95);
+            transform.position = new Vector3(-xRange, 0, -97);
     }
 }
