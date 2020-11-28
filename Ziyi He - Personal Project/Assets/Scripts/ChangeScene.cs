@@ -9,7 +9,7 @@ public class ChangeScene : MonoBehaviour
     //start the game
     public void StartGame()
     {
-        SceneManager.LoadScene("Scene");
+        SceneManager.LoadScene("MyGame");
     }
 
     //quit game
@@ -20,7 +20,7 @@ public class ChangeScene : MonoBehaviour
     }
     public void BackMenu()
     {
-        SceneManager.LoadScene("0");
+        SceneManager.LoadScene("Scene");
     }
     public void loadUrl()
     {
