@@ -7,16 +7,10 @@ public class ChangeScene : MonoBehaviour
 {
     public string URL = "https://github.com/TUD-ZH/Personal-project";
 
-    private void Update()
-    {
-        Cursor.lockState = CursorLockMode.None;
-    }
-    //start the game
-
-
+//start the game
     public void StartGame()
     {
-        SceneManager.LoadScene("zGame");
+        SceneManager.LoadScene("Game");
     }
 
     //quit game
