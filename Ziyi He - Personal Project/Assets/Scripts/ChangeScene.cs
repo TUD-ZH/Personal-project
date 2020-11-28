@@ -6,7 +6,11 @@ using UnityEngine.SceneManagement;
 public class ChangeScene : MonoBehaviour
 {
     public string URL = "https://github.com/TUD-ZH/Personal-project";
+
+
     //start the game
+
+
     public void StartGame()
     {
         SceneManager.LoadScene("MyGame");
