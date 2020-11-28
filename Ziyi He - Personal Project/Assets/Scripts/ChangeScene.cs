@@ -13,7 +13,7 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadScene("Game");
     }
 
-    //quit game
+//quit game
     public void QuitGame()
     {
         Debug.Log("Quit.");
