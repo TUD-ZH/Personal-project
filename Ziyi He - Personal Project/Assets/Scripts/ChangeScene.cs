@@ -9,7 +9,7 @@ public class ChangeScene : MonoBehaviour
     //start the game
     public void StartGame()
     {
-        SceneManager.LoadScene("MyGame");
+        SceneManager.LoadScene("Scene");
     }
 
     //quit game
