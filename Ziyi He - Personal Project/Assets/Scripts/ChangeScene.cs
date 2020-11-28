@@ -13,7 +13,7 @@ public class ChangeScene : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("MyGame");
+        SceneManager.LoadScene("zGame");
     }
 
     //quit game
@@ -24,7 +24,7 @@ public class ChangeScene : MonoBehaviour
     }
     public void BackMenu()
     {
-        SceneManager.LoadScene("Scene");
+        SceneManager.LoadScene("Menu");
     }
     public void loadUrl()
     {
