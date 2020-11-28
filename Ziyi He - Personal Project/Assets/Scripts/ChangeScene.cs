@@ -7,7 +7,10 @@ public class ChangeScene : MonoBehaviour
 {
     public string URL = "https://github.com/TUD-ZH/Personal-project";
 
-
+    private void Update()
+    {
+        Cursor.lockState = CursorLockMode.None;
+    }
     //start the game
 
 
