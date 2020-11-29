@@ -588,7 +588,7 @@ MonoBehaviour:
   - {fileID: 2761907524548293209, guid: 5c82cf5974547f54f9065b779ceb44e1, type: 3}
   gameStarted: 1
   index: 0
-  xRange: 5
+  xRange: 7
   scoreText: {fileID: 399873185}
 --- !u!4 &1551316478
 Transform:
@@ -685,7 +685,7 @@ PrefabInstance:
     - target: {fileID: 5196601582227382295, guid: 20066f0736d31be419675a4253f57079,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5196601582227382295, guid: 20066f0736d31be419675a4253f57079,
         type: 3}
@@ -740,7 +740,7 @@ PrefabInstance:
     - target: {fileID: 5193093774794839420, guid: 20066f0736d31be419675a4253f57079,
         type: 3}
       propertyPath: xRange
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20066f0736d31be419675a4253f57079, type: 3}
