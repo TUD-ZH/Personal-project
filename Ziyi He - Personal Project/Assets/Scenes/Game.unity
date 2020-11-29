@@ -588,7 +588,7 @@ MonoBehaviour:
   - {fileID: 2761907524548293209, guid: 5c82cf5974547f54f9065b779ceb44e1, type: 3}
   gameStarted: 1
   index: 0
-  xRange: 7
+  xRange: 8
   scoreText: {fileID: 399873185}
 --- !u!4 &1551316478
 Transform:
