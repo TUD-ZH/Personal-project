@@ -586,7 +586,7 @@ MonoBehaviour:
   - {fileID: 4993332474177557665, guid: a1ec9af51652a5b47809ec9461a1460c, type: 3}
   - {fileID: 8549560902280048982, guid: b58c1c7fa2722df469d8931efb512ba3, type: 3}
   - {fileID: 2761907524548293209, guid: 5c82cf5974547f54f9065b779ceb44e1, type: 3}
-  gameStarted: 0
+  gameStarted: 1
   index: 0
   xRange: 7
   scoreText: {fileID: 399873185}
@@ -685,7 +685,7 @@ PrefabInstance:
     - target: {fileID: 5196601582227382295, guid: 20066f0736d31be419675a4253f57079,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.38
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5196601582227382295, guid: 20066f0736d31be419675a4253f57079,
         type: 3}
@@ -695,7 +695,7 @@ PrefabInstance:
     - target: {fileID: 5196601582227382295, guid: 20066f0736d31be419675a4253f57079,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -97.81
+      value: -97
       objectReference: {fileID: 0}
     - target: {fileID: 5196601582227382295, guid: 20066f0736d31be419675a4253f57079,
         type: 3}
@@ -736,6 +736,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5193093774794839420, guid: 20066f0736d31be419675a4253f57079,
+        type: 3}
+      propertyPath: xRange
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20066f0736d31be419675a4253f57079, type: 3}

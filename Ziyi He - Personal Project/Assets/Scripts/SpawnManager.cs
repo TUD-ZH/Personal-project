@@ -9,7 +9,7 @@ public class SpawnManager : MonoBehaviour
     public GameObject[] christmasPrefabs;
     public bool gameStarted;
     public int index;
-    public float xRange;
+    public float xRange; 
     private int score;
     public TextMeshProUGUI scoreText;
 
